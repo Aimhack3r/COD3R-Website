@@ -1,0 +1,173 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Calibri';
+}
+
+h3,
+h2 {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #270082;
+    color: #fff;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #7A0BC0;
+    color: #fff;
+
+}
+
+#press {
+    background-color: #7A0BC0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#cta {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #270082;
+}
+
+.btnpr {
+    background-color: #270082;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.coding-img {
+    width: 80px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Calibri";
+}
+
+.dbtn {
+    margin: 5% 3% 5% 0;
+}
+
+.titleimg {
+    width: 70%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+}
+
+.titleimgdiv {
+    position: relative;
+}
+
+.features-icon {
+    font-size: 3rem;
+    margin-bottom: 5%;
+    width: 100px;
+}
+
+.featurespara {
+    color: #8f8f8f;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.features-column {
+
+    text-align: center;
+
+    padding: 5%;
+
+}
+
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.pressimg {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+.styleimg{
+    width: 30%;
+    float: left;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .titleimg {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.ctahead {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.ficon {
+    margin: 10px;
+}
